@@ -1,16 +1,31 @@
-# This is a sample Python script.
+print('')
+print ('Escolha entre "Empréstimo", "Conversor", "Alistamento", "Média", e "Pagamento"')
+print('')
+print ('Empréstimo: 1')
+print ('Conversor: 2')
+print ('Alistamento: 3')
+print ('Média: 4')
+print ('Pagamento: 5')
+print('')
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+nome = int(input('Escolha entre 1, 2, 3, 4, e 5: '))
 
+match nome:
+    case 1:
+        import emprestimo
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    case 2:
+        import convesor
 
+    case 3:
+        import alistamento
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    case 4:
+        import media
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    case 5:
+        import pagamento
+
+    case _:
+        ValueError
+        print('ERRO: Digite apenas NÚMEROS entre 1 e 2! ')

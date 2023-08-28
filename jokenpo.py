@@ -1,7 +1,12 @@
 import random
 from time import sleep
 print('')
+print('-='*11)
+print('''Olá {}
+Seja Bem-Vindo ao jokenpo do Brayan''')
+print('-='*11)
 
+sleep(2)
 
 itens = ('Pedra','Papel','Tesoura')
 
