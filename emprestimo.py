@@ -3,10 +3,10 @@ print('')
 
 name = str(input('Digite seu nome: '))
 
-print('-='*11)
+print('-='*19)
 print('''Olá {}
 Seja Bem-Vindo ao banco do Brayan'''.format(name))
-print('-='*11)
+print('-='*19)
 
 sleep(1)
 

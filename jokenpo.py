@@ -1,10 +1,10 @@
 import random
 from time import sleep
 print('')
-print('-='*11)
-print('''Olá {}
+print('-='*20)
+print('''Olá 
 Seja Bem-Vindo ao jokenpo do Brayan''')
-print('-='*11)
+print('-='*20)
 
 sleep(2)
 

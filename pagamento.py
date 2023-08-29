@@ -26,7 +26,7 @@ print('''[1] Para Forma de Pagamento a Vista Dinheiro ou Cheque
 [4] Para Forma de Pagamento em 3x ou mais no Cartão''')
 print('-=' * 15)
 sleep(1)
-pagamento = int(input('Qual seria a forma de pagamento:'))
+pagamento = int(input('Qual seria a forma de pagamento: '))
 print('-=' * 15)
 desconto = produto -(produto *0.1)
 desconto1 = produto -(produto *0.05)
