@@ -7,7 +7,7 @@
 
 ##
 
-```Caso sua idade seja maior que 18 anos o código irá imprimir o seguinte: ```
+```Caso sua idade seja maior que 18 anos o código irá imprimir o seguinte:```
 
 ![image](https://github.com/BigBraim/exercicio-18-08/assets/79224234/84389e53-0ce3-478b-9128-e7da4e715a38)
 
